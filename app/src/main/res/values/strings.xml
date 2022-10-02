@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">BTTonghop</string>
+    <string name="my_name">Lương Hàn Nhật</string>
+    <string name="follow">110.5K</string>
+    <string name="follow1">Theo dõi</string>
+    <string name="posts">521.4K</string>
+    <string name="content">Bài viết</string>
+    <string name="friend">241.4K</string>
+    <string name="friend1">Bạn bè</string>
+    <string name="email">hannhat20T2@gmail.com</string>
+    <string name="address">Duy Xuyên, Quảng Nam</string>
+    <string name="phone">0898871228</string>
+    <string name="github">github.com/LHanNhat20T2</string>
+    <string name="txtuserlogin">Nhập Email</string>
+    <string name="txtpwlogin">*****************</string>
+    <string name="login">LOGIN</string>
+    <string name="wellcome">Well come back</string>
+    <string name="btnlogin">SIGN IN</string>
+    <string name="testview">Don\'t have an account?</string>
+    <string name="cbremember">Remember me</string>
+    <string name="recoverpw">Forgot password?</string>
+    <string name="txtAcc">Create Account</string>
+    <string name="txtSignup">Sign Up</string>
+    <string name="txtFirstName">Fisrt Name</string>
+    <string name="txtLastName">Last Name</string>
+    <string name="txtEmailSU">Email</string>
+    <string name="txtPassW">PassWord</string>
+    <string name="loginsucess">Đăng nhập thành công</string>
+    <string name="loginerror">Username hoặc Password sai !</string>
+    <string name="txtdashboard">Dashboard</string>
+    <string name="txtcollections">Collections</string>
+    <string name="txtschool">School</string>
+    <string name="txtprofile">Profile</string>
+    <string name="txt1">Hi Hàn Nhật</string>
+    <string name="txt2">Have a good nice day!</string>
+    <string name="txtnews">News</string>
+
+
+
+
+
+
+</resources>
