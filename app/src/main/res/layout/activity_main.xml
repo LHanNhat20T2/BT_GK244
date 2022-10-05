@@ -95,7 +95,7 @@
                     android:text="@string/txtprofile"
                     android:fontFamily="sans-serif-light"
                     android:textColor="#FFFAFA"
-                    android:textSize="24sp" />
+                    android:textSize="28sp" />
             </LinearLayout>
 
             <!--item 1 - sub 2-->
@@ -130,7 +130,7 @@
                     android:gravity="center"
                     android:text="@string/txtnews"
                     android:textColor="#FFFAFA"
-                    android:textSize="24sp" />
+                    android:textSize="28sp" />
             </LinearLayout>
         </LinearLayout>
         <!--         items - 2 -->
@@ -172,7 +172,7 @@
                     android:gravity="center"
                     android:text="@string/txtshool"
                     android:textColor="#FFFAFA"
-                    android:textSize="24sp" />
+                    android:textSize="28sp" />
             </LinearLayout>
 
             <!--item 2 - sub 2-->
@@ -209,7 +209,7 @@
                     android:gravity="center"
                     android:text="@string/txtexit"
                     android:textColor="#FFFAFA"
-                    android:textSize="24sp" />
+                    android:textSize="28sp" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

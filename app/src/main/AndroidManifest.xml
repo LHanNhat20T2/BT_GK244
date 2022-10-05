@@ -13,19 +13,23 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BTTonghop"
         tools:targetApi="31">
-
         <activity
-            android:name=".activity_signup"
-            android:exported="false" />
-        <activity
-            android:name=".activity_login"
+            android:name=".LoginActivity"
             android:exported="true" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"/>
         <activity
-            android:name=".activity_profile"
-            android:exported="true" >
+            android:name=".ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SchoolActivity"
+            android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

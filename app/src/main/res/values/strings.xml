@@ -36,6 +36,39 @@
     <string name="txtnews">News</string>
     <string name="txtshool">School</string>
     <string name="txtexit">Exit</string>
+    <string name="txtschoolute">Trường Đại học Sư Phạm Kỹ thuật - Đại học Đà Nẵng</string>
+    <string name="txtweb">Trang web</string>
+    <string name="txtthread">Chỉ đường</string>
+    <string name="txtsave">Lưu</string>
+    <string name="txtcall">Gọi</string>
+    <string name="txtmota">Trường Đại học Sư phạm Kỹ thuật Đà Nẵng là một trường đại học chuyên ngành về khối ngành kỹ thuật tại Việt Nam,được đánh giá là một trong những trường đại học đầu ngành về đào tạo khối ngành kỹ thuật tại Miền Trung Việt Nam.</string>
+    <string name="txtWikipedia">Wikipedia</string>
+    <string name="txtaddress">Địa chỉ:</string>
+    <string name="txtcontextadd">48 Cao Thắng, Thanh Bình, Hải Châu, Đà Nẵng 550000</string>
+    <string name="txttime">Các giờ:</string>
+    <string name="txtcontexttime2">Đóng cửa lúc 17:00 </string>
+    <string name="txtcontexttime1">Đang mở cửa</string>
+    <string name="txtphone">Điện thoại:</string>
+    <string name="txtcontextphone">0236 3822 571</string>
+    <string name="txtestablishment">Ngày thành lập</string>
+    <string name="txtcontextablishment">2017</string>
+    <string name="txtprincipal">Hiệu trưởng:</string>
+    <string name="txtcontextprincipal">PGS TS Phan Cao Thọ</string>
+    <string name="txttype">Loại:</string>
+    <string name="txtcontexttype">Đại học Kỹ thuật hệ Công lập</string>
+    <string name="txtmember">Thành viên của:</string>
+    <string name="txtcontextmember">Đại học Đà Nẵng, trực thuộc Bộ Giáo dục và Đào tạo</string>
+    <string name="txtanother">Tên khác:</string>
+    <string name="txtcontext">Trường Kỹ thuật sư phạm</string>
+    <string name="txtnvt">Nguyễn Văn Trỗi</string>
+
+
+
+
+
+
+
+
 
 
 </resources>
