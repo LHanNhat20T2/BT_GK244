@@ -62,6 +62,11 @@
     <string name="txtcontext">Trường Kỹ thuật sư phạm</string>
     <string name="txtnvt">Nguyễn Văn Trỗi</string>
 
+    <string name="txtname">Tên</string>
+    <string name="txtdescription">Mô tả</string>
+    <string name="txtheading">Những địa điểm du lịch nổi tiếng và đẹp nhất tại Quảng Nam.</string>
+    <string name="btnadd">Thêm</string>
+    <string name="btnupdate">Cật nhật</string>
 
 
 
