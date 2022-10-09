@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail_GhenDaBanThan">
+
+    <!--    header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#008B45"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="@string/txtnumberfive"
+            android:textSize="35sp"
+            />
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:text="@string/txtnameBT"
+            android:textSize="28sp"
+            />
+    </LinearLayout>
+    <!--   Thông tin Ghềnh Đá Bàn Than -->
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:fontFamily="Montserrat"
+                android:text="@string/txtQualityevalution"
+                android:textSize="21sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/tv1"
+                android:fontFamily="sans-serif"
+                android:text="@string/txtcontextQualityevalutionBT"
+                android:textSize="20sp"
+                android:textColor="#0064c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/tv1"
+                android:fontFamily="sans-serif"
+                android:text="@string/txtgoogle"
+                android:textSize="20sp"
+                android:textColor="#1C1C1C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:fontFamily="Montserrat"
+                android:text="@string/txtadress"
+                android:textSize="21sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/tv1"
+                android:fontFamily="sans-serif"
+                android:text="@string/txtcontextaddressBT"
+                android:textSize="20sp"
+                android:textColor="#0064c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:fontFamily="Montserrat"
+                android:text="@string/txttimeopen"
+                android:textSize="21sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/tv1"
+                android:fontFamily="sans-serif"
+                android:text="@string/txtcontexttimeBT"
+                android:textSize="20sp"
+                android:textColor="#1C1C1C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:fontFamily="Montserrat"
+                android:text="@string/txtprice"
+                android:textSize="21sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/tv1"
+                android:fontFamily="sans-serif"
+                android:text="@string/txtcontextpriceBT"
+                android:textSize="20sp"
+                android:textColor="#1C1C1C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:fontFamily="Montserrat"
+                android:text="@string/txtAdvantages"
+                android:textSize="21sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/tv1"
+                android:fontFamily="sans-serif"
+                android:text="@string/txtcontextAdvantagesBT"
+                android:textSize="20sp"
+                android:textColor="#1C1C1C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv1"
+                android:fontFamily="Montserrat"
+                android:text="@string/txtdefect"
+                android:textSize="21sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/tv1"
+                android:fontFamily="sans-serif"
+                android:text="@string/txtcontextdefectBT"
+                android:textSize="20sp"
+                android:textColor="#1C1C1C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+        <!--img Ghềnh Đá Bàn Than-->
+        <ImageView
+            android:scaleType="centerCrop"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/img_ghenhbanthan"
+            />
+
+        <TextView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:text="@string/figureBT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <!--        mô tả Ghềnh Đá Bàn Than  -->
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="19sp"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtmotaBT"/>
+    </LinearLayout>
+</RelativeLayout>

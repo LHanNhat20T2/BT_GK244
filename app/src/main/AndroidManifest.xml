@@ -14,7 +14,19 @@
         android:theme="@style/Theme.BTTonghop"
         tools:targetApi="31">
         <activity
-            android:name=".DetailActivity"
+            android:name=".Detail_HKDDung"
+            android:exported="false" />
+        <activity
+            android:name=".Detail_GhenDaBanThan"
+            android:exported="false" />
+        <activity
+            android:name=".Detail_BaiRang"
+            android:exported="false" />
+        <activity
+            android:name=".Detail_bienHaMy"
+            android:exported="false" />
+        <activity
+            android:name=".Detail_langBichHoa"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
@@ -30,6 +42,9 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Detail_MySon"
             android:exported="true" />
         <activity
             android:name=".TravelActivity"

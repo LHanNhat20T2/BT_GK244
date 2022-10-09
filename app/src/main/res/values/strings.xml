@@ -68,12 +68,84 @@
     <string name="btnadd">Thêm</string>
     <string name="btnupdate">Cật nhật</string>
 
+    <string name="txtQN">Những địa điểm du lịch nổi tiếng \n và đẹp nhất tại Quảng Nam</string>
 
 
+    <!--    detail my son-->
+    <string name="figuremyson">Thánh Địa Mỹ Sơn</string>
+    <string name="txtQualityevalution">Đánh giá chất lượng:</string>
+    <string name="txtcontextQualityevalution">4.4/5</string>
+    <string name="txtadress">Địa chỉ:</string>
+    <string name="txtcontextaddress">Thôn Mỹ Sơn, huyện Duy Xuyên, tỉnh Quảng Nam.</string>
+    <string name="txttimeopen">Giờ mở cửa:</string>
+    <string name="txtcontexttime">6h00 - 17h00.</string>
+    <string name="txtprice">Giá vé:</string>
+    <string name="txtcontextprice">100.000 - 150.000 đồng/người.</string>
+    <string name="txtsdt">Số điện thoại:</string>
+    <string name="txtcontextsdt">02353731309</string>
+    <string name="txtws">Website:</string>
+    <string name="txtcontextws">http://disanvanhoamyson.vn/</string>
+    <string name="txtAdvantages">Ưu điểm:</string>
+    <string name="txtcontextAdvantages">Phong cảnh đẹp và yên tĩnh.</string>
+    <string name="txtdefect">Nhược điểm:</string>
+    <string name="txtcontextdefect">Khá nắng và nóng.</string>
+    <string name="txtmotamyson">Với hơn 70 đền tháp cổ được xây dựng từ thế kỷ IV, Thánh địa Mỹ Sơn được UNESCO công nhận là Di sản Văn hoá Thế giới. Các đền tháp được xây dựng theo lối kiến trúc Chăm-pa, được chạm khắc những hoa văn vô cùng tinh xảo và độc đáo. Đây là một địa điểm du lịch nổi tiếng tại Quảng Nam mà bạn không thể bỏ lỡ.</string>
+    <string name="txtnamemyson">Thánh Địa Mỹ Sơn</string>
+    <string name="txtnumberone">1.</string>
 
+    <!--    detail Làng Bích Họa Tam Thanh-->
+    <string name="txtgoogle">(Google)</string>
+    <string name="txtnumbertwo">2.</string>
+    <string name="txtnameBH">Làng Bích Họa Tam Thanh</string>
+    <string name="figureBH">Làng Bích Họa Tam Thanh với những \n bức tranh bích họa đầy màu sắc</string>
+    <string name="txtcontextQualityevalutionBH">4.3/5</string>
+    <string name="txtcontextaddressBH">Xã Tam Thanh, thành phố Tam Kỳ, tỉnh Quảng Nam.</string>
+    <string name="txtcontexttimeBH">Mở cửa cả ngày vào các ngày trong tuần.</string>
+    <string name="txtcontextpriceBH">100.000 - 150.000 đồng/người.</string>
+    <string name="txtcontextAdvantagesBH">Cảnh đẹp, tha hồ cho bạn “sống ảo”.</string>
+    <string name="txtcontextdefectBH">Chưa có nhiều hàng quán, dịch vụ cho khách du lịch.</string>
+    <string name="txtmotaBH">Đến với Làng Bích Họa Tam Thanh, bạn sẽ không khỏi bất ngờ với những bức tranh bích họa đầy màu sắc được vẽ trên những ngôi nhà đơn sơ, cũ kỹ của ngư dân. Các bức tranh được thực hiện bởi 5 họa sĩ người Hàn Quốc, thể hiện cuộc sống thú vị, gần gũi của người dân nơi đây.</string>
 
+    <!--    detail biển Hà My-->
+    <string name="txtnumberthree">3.</string>
+    <string name="txtnameHMY">Bãi biển Hà My</string>
+    <string name="figureHM">Biển Hà My với không gian hoang sơ, vắng vẻ</string>
+    <string name="txtcontextQualityevalutionHMY">4.3/5</string>
+    <string name="txtcontextaddressHMY">Phường Điện Dương, thị xã Điện Bàn, tỉnh Quảng Nam.</string>
+    <string name="txtcontexttimeHMY">Mở cửa cả ngày vào các ngày trong tuần.</string>
+    <string name="txtcontextAdvantagesHMY">Có các nhà hàng hải sản quanh khu vực biển.</string>
+    <string name="txtcontextdefectHMY">Chưa có dịch vụ cứu hộ.</string>
+    <string name="txtmotaHMY">Nếu bạn yêu thích không gian hoang sơ, vắng vẻ, bãi biển Hà My sẽ là một điểm đến tuyệt vời dành cho bạn. Khi đến đây, bạn sẽ được cảm nhận một khung cảnh thiên nhiên tuyệt đẹp với sự hòa quyện của mây trời, sông nước, với những rặng dừa gió thổi rì rào,...</string>
 
+    <!--    detail biển Bãi Rạng-->
+    <string name="txtnumberfour">4.</string>
+    <string name="txtnameBR">Bãi Biển Rạng</string>
+    <string name="figureBR">Biển Rạng sở hữu phong cảnh \nthiên nhiên hùng vĩ</string>
+    <string name="txtcontextQualityevalutionBR">4.4/5</string>
+    <string name="txtcontextaddressBR">Xã Tam Quang, huyện Núi Thành, tỉnh Quảng Nam.</string>
+    <string name="txtcontextAdvantagesBR">Nước biển trong và sạch.</string>
+    <string name="txtcontextdefectBR">Đông khách vào những dịp lễ hoặc cuối tuần.</string>
+    <string name="txtmotaBR">Bãi Biển Rạng cũng là một trong những địa điểm du lịch nổi tiếng tại tỉnh Quảng Nam. Biển Rạng sở hữu phong cảnh thiên nhiên hùng vĩ với những bãi đá phủ rêu xanh trải dài theo bờ biển, những con sóng mạnh mẽ tung bọt trắng xóa,...</string>
 
+    <!--    detail Ghềnh Đá Bàn Than-->
+    <string name="txtnumberfive">5.</string>
+    <string name="txtnameBT">Ghềnh Đá Bàn Than</string>
+    <string name="figureBT">Ghềnh Đá Bàn Than được mệnh danh là\n một “kiệt tác từ đá đen”</string>
+    <string name="txtcontextQualityevalutionBT">4.2/5</string>
+    <string name="txtcontextaddressBT">Xã Tam Hải, huyện Núi Thành, tỉnh Quảng Nam.</string>
+    <string name="txtcontexttimeBT">Mở cửa cả ngày vào các ngày trong tuần.</string>
+    <string name="txtcontextpriceBT">250.000 đồng/người.</string>
+    <string name="txtcontextAdvantagesBT">Cảnh đẹp, hùng vĩ.</string>
+    <string name="txtcontextdefectBT">Đường khá khó đi.</string>
+    <string name="txtmotaBT">Du lịch Quảng Nam, ghềnh Đá Bàn Than sẽ là một địa điểm hấp dẫn mà bạn không thể bỏ qua. Đến đây, bạn sẽ được tận mắt chứng kiến những lớp đá xếp chồng lên nhau với những hình thù vô cùng độc đáo. Có lẽ vì vậy mà nơi đây được mệnh danh là một “kiệt tác từ đá đen”.</string>
 
-
+    <!--    detail Hòn Kẽm Đá Dừng-->
+    <string name="txtnumbersix">6.</string>
+    <string name="txtnameHKDD">Hòn Kẽm Đá Dừng</string>
+    <string name="figureHKDD">Hòn Kẽm Đá Dừng nổi tiếng với phong cảnh thiên nhiên thơ mộng, yên bình</string>
+    <string name="txtcontextQualityevalutionHKDD">4.6/5</string>
+    <string name="txtcontextaddressHKDD">Xã Hiệp Hòa, huyện Hiệp Đức, tỉnh Quảng Nam .</string>
+    <string name="txtcontextAdvantagesHKDD">Cảnh đẹp tự nhiên, hoang sơ.</string>
+    <string name="txtcontextdefectHKDD">Có thu phí khi muốn tham quan bằng thuyền.</string>
+    <string name="txtmotaHKDD">Hòn Kẽm Đá Dừng là một địa điểm du lịch nổi tiếng với phong cảnh thiên nhiên thơ mộng, yên bình. Đến đây, bạn sẽ được chứng kiến vẻ đẹp hài hòa của những ngọn núi cao hùng vĩ cùng dòng nước mênh mông, trong vắt, được gặp gỡ và trò chuyện cùng những người dân bản địa chất phác.</string>
 </resources>

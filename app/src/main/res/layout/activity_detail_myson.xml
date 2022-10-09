@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail_MySon">
+
+<!--    header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txtnumberone"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#008B45"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:text="@string/txtnumberone"
+            android:textSize="35sp"
+            />
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:text="@string/txtnamemyson"
+            android:textSize="28sp"
+            />
+    </LinearLayout>
+<!--   Thông tin Mỹ Sơn -->
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+            <TextView
+                android:fontFamily="Montserrat"
+                android:text="@string/txtQualityevalution"
+                android:textSize="21sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/tv1"
+                android:fontFamily="sans-serif"
+                android:text="@string/txtcontextQualityevalution"
+                android:textSize="20sp"
+                android:textColor="#0064c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/tv1"
+                android:fontFamily="sans-serif"
+                android:text="@string/txtgoogle"
+                android:textSize="20sp"
+                android:textColor="#1C1C1C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:fontFamily="Montserrat"
+                android:text="@string/txtadress"
+                android:textSize="21sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/tv1"
+                android:fontFamily="sans-serif"
+                android:text="@string/txtcontextaddress"
+                android:textSize="20sp"
+                android:textColor="#0064c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:fontFamily="Montserrat"
+                android:text="@string/txttimeopen"
+                android:textSize="21sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/tv1"
+                android:fontFamily="sans-serif"
+                android:text="@string/txtcontexttime"
+                android:textSize="20sp"
+                android:textColor="#1C1C1C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:fontFamily="Montserrat"
+                android:text="@string/txtprice"
+                android:textSize="21sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/tv1"
+                android:fontFamily="sans-serif"
+                android:text="@string/txtcontextprice"
+                android:textSize="20sp"
+                android:textColor="#1C1C1C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:fontFamily="Montserrat"
+                android:text="@string/txtsdt"
+                android:textSize="21sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/tv1"
+                android:fontFamily="sans-serif"
+                android:text="@string/txtcontextsdt"
+                android:textSize="20sp"
+                android:textColor="#1C1C1C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:fontFamily="Montserrat"
+                android:text="@string/txtws"
+                android:textSize="21sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/tv1"
+                android:fontFamily="sans-serif"
+                android:text="@string/txtcontextws"
+                android:textSize="20sp"
+                android:textColor="#0064c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:fontFamily="Montserrat"
+                android:text="@string/txtAdvantages"
+                android:textSize="21sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/tv1"
+                android:fontFamily="sans-serif"
+                android:text="@string/txtcontextAdvantages"
+                android:textSize="20sp"
+                android:textColor="#1C1C1C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv1"
+                android:fontFamily="Montserrat"
+                android:text="@string/txtdefect"
+                android:textSize="21sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/tv1"
+                android:fontFamily="sans-serif"
+                android:text="@string/txtcontextdefect"
+                android:textSize="20sp"
+                android:textColor="#1C1C1C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+<!--img mỹ sơn -->
+            <ImageView
+                android:scaleType="centerCrop"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/img_thanhdiamyson"
+                />
+
+        <TextView
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:text="@string/figuremyson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+<!--        mô tả mỹ sơn  -->
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="19sp"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtmotamyson"/>
+    </LinearLayout>
+</RelativeLayout>
