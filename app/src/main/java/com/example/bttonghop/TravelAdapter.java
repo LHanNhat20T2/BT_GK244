@@ -1,6 +1,7 @@
 package com.example.bttonghop;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,9 +10,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
+
 
 public class TravelAdapter extends RecyclerView.Adapter<TravelAdapter.ViewHodler> {
     ArrayList<TravelViews> travelviews;
@@ -31,9 +34,11 @@ public class TravelAdapter extends RecyclerView.Adapter<TravelAdapter.ViewHodler
 
     @Override
     public void onBindViewHolder(@NonNull ViewHodler holder, int position) {
+
         holder.txtName.setText(travelviews.get(position).getTen());
         holder.txtMota.setText(travelviews.get(position).getMota());
         holder.imgHinh.setImageResource(travelviews.get(position).getHinhAnh());;
+
 
 //click items view
         switch (position){
@@ -94,7 +99,12 @@ public class TravelAdapter extends RecyclerView.Adapter<TravelAdapter.ViewHodler
                 });
                 break;
         }
-    }
+
+
+
+}
+
+
 
     @Override
     public int getItemCount() {

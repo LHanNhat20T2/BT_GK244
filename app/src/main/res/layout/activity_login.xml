@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/img_bgd"
+    android:background="#F8F8FF"
     tools:context=".LoginActivity">
 
     <!--        header  -->
@@ -11,20 +11,21 @@
         android:id="@+id/headerlg"
         android:layout_width="match_parent"
         android:layout_height="270dp">
-
         <ImageView
-            android:id="@+id/img_ute"
-            android:layout_width="350dp"
-            android:layout_height="200dp"
-            android:layout_marginLeft="30dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/ic_login" />
+
+            android:id="@+id/img_login"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_login"
+           />
 
         <TextView
+            android:layout_marginTop="5dp"
             android:id="@+id/txtlogin1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/img_ute"
+            android:layout_below="@+id/img_login"
             android:layout_centerInParent="true"
             android:text="@string/login"
             android:textColor="#1C0606"
@@ -38,7 +39,6 @@
         android:layout_below="@+id/headerlg">
 
         <LinearLayout
-
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
@@ -132,5 +132,4 @@
 
         </LinearLayout>
     </RelativeLayout>
-
 </RelativeLayout>

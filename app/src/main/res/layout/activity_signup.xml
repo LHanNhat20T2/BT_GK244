@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/img_bgd"
+    android:background="#F8F8FF"
     tools:context=".SignUpActivity">
 
     <!--Header text-->
@@ -46,6 +46,7 @@
                 android:textSize="25sp" />
             <!--input first name-->
             <EditText
+                android:paddingLeft="16dp"
                 android:layout_width="374dp"
                 android:layout_height="40dp"
                 android:layout_marginBottom="14dp"
@@ -55,11 +56,13 @@
             <!--            last name  -->
             <TextView
                 android:layout_width="385dp"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:text="@string/txtLastName"
+                android:layout_marginBottom="14dp"
                 android:textSize="25sp" />
             <!--            input last name -->
             <EditText
+                android:paddingLeft="16dp"
                 android:layout_width="374dp"
                 android:layout_height="40dp"
                 android:layout_marginBottom="14dp"
@@ -75,6 +78,7 @@
                 android:textSize="25sp" />
             <!--            input email -->
             <EditText
+                android:paddingLeft="16dp"
                 android:layout_width="374dp"
                 android:layout_height="40dp"
                 android:layout_marginBottom="14dp"
@@ -90,6 +94,7 @@
                 android:textSize="25sp" />
             <!--            input pass-->
             <EditText
+                android:paddingLeft="16dp"
                 android:layout_width="374dp"
                 android:layout_height="40dp"
                 android:background="@drawable/layersingupboder"
@@ -114,6 +119,19 @@
             android:ems="12"
             android:padding="12dp"
             android:text="@string/txtSignup"
+            android:textSize="27sp" />
+
+        <Button
+            android:id="@+id/buttonLogin2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_below="@+id/buttonSignUp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#005096"
+            android:ems="12"
+            android:padding="12dp"
+            android:text="@string/login"
             android:textSize="27sp" />
     </RelativeLayout>
 </RelativeLayout>

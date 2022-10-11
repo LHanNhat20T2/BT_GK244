@@ -100,7 +100,6 @@
                 android:textColor="#0064c2"
                 android:textSize="20sp" />
         </LinearLayout>
-
         <LinearLayout
             android:layout_marginLeft="10dp"
             android:layout_width="match_parent"
@@ -114,7 +113,6 @@
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 />
-
             <TextView
                 android:layout_marginLeft="10dp"
                 android:layout_toRightOf="@+id/tv1"
@@ -141,7 +139,6 @@
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 />
-
             <TextView
                 android:layout_marginLeft="10dp"
                 android:layout_toRightOf="@+id/tv1"
@@ -153,7 +150,6 @@
                 android:layout_height="wrap_content"
                 />
         </LinearLayout>
-
         <!--img Hòn Kẽm Đá Dừng -->
         <ImageView
             android:scaleType="centerCrop"
@@ -181,5 +177,4 @@
             android:layout_height="wrap_content"
             android:text="@string/txtmotaHKDD"/>
     </LinearLayout>
-
 </RelativeLayout>

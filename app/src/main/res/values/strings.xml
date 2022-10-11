@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">BTTonghop</string>
     <string name="my_name">Lương Hàn Nhật</string>
+    <string name="txtexitprofile">Thoát</string>
     <string name="follow">110.5K</string>
     <string name="follow1">Theo dõi</string>
     <string name="posts">521.4K</string>
@@ -15,7 +16,7 @@
     <string name="txtpwlogin">*****************</string>
     <string name="login">LOGIN</string>
     <string name="wellcome">Well come back</string>
-    <string name="btnlogin">SIGN IN</string>
+    <string name="btnlogin">Login</string>
     <string name="testview">Don\'t have an account?</string>
     <string name="cbremember">Remember me</string>
     <string name="recoverpw">Forgot password?</string>

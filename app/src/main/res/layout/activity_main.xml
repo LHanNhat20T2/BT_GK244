@@ -79,6 +79,7 @@
                     android:layout_marginTop="20dp">
 
                     <ImageView
+                        android:id="@+id/img_profile"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:scaleType="fitCenter"
@@ -116,6 +117,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp">
                 <ImageView
+                        android:id="@+id/img_news"
                         android:layout_width="140dp"
                         android:layout_height="100dp"
                         android:scaleType="fitCenter"
@@ -157,6 +159,7 @@
                     android:layout_marginTop="20dp">
 
                 <ImageView
+                    android:id="@+id/img_school"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                         android:scaleType="fitCenter"
@@ -193,6 +196,7 @@
                     >
 
                     <ImageView
+                        android:id="@+id/img_exit"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:scaleType="fitXY"

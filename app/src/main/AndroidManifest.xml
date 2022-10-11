@@ -28,12 +28,7 @@
         <activity
             android:name=".Detail_langBichHoa"
             android:exported="false" />
-        <activity
-            android:name=".LoginActivity"
-            android:exported="true" />
-        <activity
-            android:name=".SignUpActivity"
-            android:exported="false" />
+
         <activity
             android:name=".ProfileActivity"
             android:exported="true" />
@@ -42,12 +37,20 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="false"/>
         <activity
             android:name=".Detail_MySon"
-            android:exported="true" />
+            android:exported="true"/>
         <activity
             android:name=".TravelActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

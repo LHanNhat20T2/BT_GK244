@@ -13,6 +13,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#E8CFB9">
+        <Button
+            android:id="@+id/buttonthoat"
+            android:backgroundTint="#8B7D7B"
+            android:layout_alignParentRight="true"
+            android:padding="12dp"
+            android:textSize="18sp"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:text="@string/txtexitprofile"
+            android:drawableRight="@drawable/logout"/>
 
         <androidx.cardview.widget.CardView
             android:id="@+id/imgUser"
@@ -159,10 +169,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/body"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="50dp"
         android:padding="5dp">
 
         <LinearLayout
+            android:layout_marginTop="50dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"

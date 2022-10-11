@@ -48,4 +48,5 @@ public class TravelActivity extends AppCompatActivity {
         recyclerView.setAdapter(shopAdapter);
     }
 
+
 }

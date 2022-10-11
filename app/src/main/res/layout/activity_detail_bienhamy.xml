@@ -18,7 +18,7 @@
             android:textColor="#008B45"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
-            android:text="@string/txtnumbertwo"
+            android:text="@string/txtnumberthree"
             android:textSize="35sp"
             />
         <TextView
